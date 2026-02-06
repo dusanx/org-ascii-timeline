@@ -173,7 +173,7 @@ Add to your `init.el` or `.emacs`:
 
 ;; Configure babel execution for timeline languages
 (setq org-babel-default-header-args:vtimeline
-      '((:results . "raw replace")))
+      '((:results . "scalar replace")))
 
 (setq org-babel-default-header-args:htimeline
       '((:results . "replace")

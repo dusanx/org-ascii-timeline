@@ -1,0 +1,28 @@
+-- Software development workflow
+>= Developer
+<= Project Manager
+
+>> Completed initial implementation
+   of user authentication module
+   :dev:
+
+<? Is this ready for QA testing?
+   :review:
+
+>! Added unit tests and documentation
+   Fixed edge cases in password validation
+   :testing:
+
+<< Approved for QA
+   Moving to staging environment
+   :approved:
+
+>> Deployed to staging
+   :deployment:
+
+<? Any issues found in staging?
+   :qa:
+
+<< All tests passed
+   Ready for production
+   :production-ready:

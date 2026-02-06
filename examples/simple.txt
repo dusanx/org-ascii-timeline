@@ -1,0 +1,9 @@
+-- Simple two-way communication
+>= Alice
+<= Bob
+
+>> Hello Bob!
+
+<< Hi Alice, how are you?
+
+>> I'm doing great, thanks!

@@ -1,0 +1,25 @@
+-- System architecture decision
+>= Backend Team
+<= Frontend Team
+
+>> Proposing GraphQL API
+   instead of REST
+   :architecture:
+
+<? How does this affect caching?
+   :performance:
+
+>! GraphQL provides built-in query optimization
+   Can implement Apollo cache on frontend
+   :solution:
+
+<? What about team learning curve?
+   :concern:
+
+>> We can start with a pilot service
+   Provide internal training sessions
+   :approach:
+
+<< Sounds reasonable
+   Let's prototype with one endpoint
+   :decision:

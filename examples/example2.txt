@@ -1,0 +1,17 @@
+-- Multi-line example
+>= Developer
+<= Code Review
+
+>> Added new authentication feature
+   with OAuth2 integration
+   and user session management
+   :feature:
+
+<? Does this meet security requirements
+   for our enterprise clients?
+   :security:
+
+>! Update the documentation
+   :docs:
+
+<< Approved and merged to main

@@ -1,0 +1,18 @@
+-- Example timeline
+>= Customer
+<= Support Team
+
+>> Initial inquiry about product
+   :2020:
+
+<< Response with product details
+   More information provided
+   :2021:
+
+>? Should I purchase the premium plan?
+   :2022:
+
+<! Please complete the purchase form
+   :2023:
+
+>> Form submitted successfully

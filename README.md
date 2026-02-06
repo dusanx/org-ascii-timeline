@@ -6,20 +6,20 @@
 ASCII timeline visualization tools for Emacs Org-mode. Create beautiful vertical and horizontal timelines using a simple, intuitive syntax.
 
 ```
-:                        Developer     |     Reviewer
-:                        ---------     |     --------
-:                                      |
-:    Request code review ------------->+ (feature/auth)
-:                                      |
-:                                      |         Reviewing changes
-:                             (review) +<------- Found minor issues
-:                                      |
-:    Fixed issues as requested ------->+ (updated)
-:                                      |
-:                                      +!------- Approved, please merge
-:                                      |
-:    Merged to main ------------------>+
-:                                      |
+                    Developer     |     Reviewer
+                    ---------     |     --------
+                                  |
+Request code review ------------->+ (feature/auth)
+                                  |
+                                  |         Reviewing changes
+                         (review) +<------- Found minor issues
+                                  |
+Fixed issues as requested ------->+ (updated)
+                                  |
+                                  +!------- Approved, please merge
+                                  |
+Merged to main ------------------>+
+                                  |
 ```
 
 ## License
@@ -220,20 +220,20 @@ Renders events on a central vertical axis with left and right events.
 ### Example Output
 
 ```
-:                                   Customer     |     Support Team
-:                                   --------     |     ------------
-:                                                |
-:    Initial inquiry about product ------------->+ (2020)
-:                                                |
-:                                                |         Response with product details
-:                                         (2021) +<------- More information provided
-:                                                |
-:    Should I purchase the premium plan? -------?+ (2022)
-:                                                |
-:                                         (2023) +!------- Please complete the purchase form
-:                                                |
-:    Form submitted successfully --------------->+
-:                                                |
+                               Customer     |     Support Team
+                               --------     |     ------------
+                                            |
+Initial inquiry about product ------------->+ (2020)
+                                            |
+                                            |         Response with product details
+                                     (2021) +<------- More information provided
+                                            |
+Should I purchase the premium plan? -------?+ (2022)
+                                            |
+                                     (2023) +!------- Please complete the purchase form
+                                            |
+Form submitted successfully --------------->+
+                                            |
 ```
 
 ## Horizontal Timeline (htimeline.py)

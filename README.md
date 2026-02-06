@@ -141,12 +141,13 @@ Add to your `config.el`:
 ```elisp
 ;; Optional: Control indentation behavior
 (setq org-adapt-indentation t)  ;; nil=0 indent; t=align with heading
+(setq org-babel-min-lines-for-block-output 9999) ;; optional force ":" prepend
 
 ;; Configure babel execution for timeline languages
 (after! org
   ;; Vertical timeline outputs raw text (no wrapping)
   (setq org-babel-default-header-args:vtimeline
-        '((:results . "raw replace")))
+        '((:results . "scalar replace")))
 
   ;; Horizontal timeline wrapped in example block
   (setq org-babel-default-header-args:htimeline

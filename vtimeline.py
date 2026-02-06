@@ -131,7 +131,7 @@ def render_timeline(left_title, right_title, events, total_width=76):
             timeline_pos = max(timeline_pos, needed_pos)
 
     # Render each event
-    prefix = ":    "
+    prefix = ""
     # Title
     #output.append(left_title + ''.ljust(timeline_pos - len(left_title)) + '|' + " " * 9 + right_title)
     title_padding = 5
